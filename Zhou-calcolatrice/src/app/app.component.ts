@@ -6,16 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Zhou-calcolatrice';
 
-}
 
-export class operazioni{
-  somma(){
-    var a = Number(document.getElementById("num1"));
-    var b = Number(document.getElementById("num2"));
-
-    var c = a+b;
+  somma(a:HTMLInputElement,b:HTMLInputElement){
+    var c= Number(a)+Number(b)
     console.log(c)
+    document.getElementById("ris").innerHTML=String(c);
+  }
+  dif(a:HTMLInputElement,b:HTMLInputElement){
+    var c= Number(a)-Number(b)
+    console.log(c)
+    document.getElementById("ris").innerHTML=String(c);
+  }
+  mult(a:HTMLInputElement,b:HTMLInputElement){
+    var c= Number(a)*Number(b)
+    console.log(c)
+    document.getElementById("ris").innerHTML=String(c);
+  }
+  div(a:HTMLInputElement,b:HTMLInputElement){
+    var c= Number(a)%Number(b)
+    console.log(c)
+    document.getElementById("ris").innerHTML=String(c);
   }
 }

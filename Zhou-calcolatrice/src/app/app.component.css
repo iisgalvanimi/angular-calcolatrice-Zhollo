@@ -1,3 +1,6 @@
-#btns{
+button{
   background-color: orange;
+}
+input{
+  width:5%;
 }
