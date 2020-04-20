@@ -2,5 +2,16 @@ button{
   background-color: orange;
 }
 input{
-  width:5%;
+  width:18%;
+  margin-left:20px;
 }
+button{
+  margin-left:20px;
+}
+#calc{
+  border:1px;
+  border-style: solid;
+  width:30%;
+
+}
+

@@ -1,6 +1,6 @@
-<form>
-<p><input  type="number" name="num1" #n2><label>  Numero 1</label><br></p>
-<p><input type="number"  name="num2" #n1><label>  Numero 2</label><br></p>
+<form id="calc">
+<p><input  type="number" name="num1" #n1><label>  Numero 1</label><br></p>
+<p><input type="number"  name="num2" #n2><label>  Numero 2</label><br></p>
 <button type='button' id="btn1" (click)="somma(n1,n2)">+</button>
 <button type='button' id="btn2" (click)="dif(n1,n2)">-</button>
 <button type='button' id="btn3" (click)="mult(n1,n2)">*</button>
