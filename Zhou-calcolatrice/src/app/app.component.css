@@ -2,7 +2,7 @@ button{
   background-color: orange;
 }
 input{
-  width:18%;
+  width:23%;
   margin-left:20px;
 }
 button{
@@ -11,7 +11,7 @@ button{
 #calc{
   border:1px;
   border-style: solid;
-  width:30%;
+  width:20%;
 
 }
 
